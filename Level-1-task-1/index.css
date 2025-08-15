@@ -5,11 +5,11 @@
 }
 
 html {
-    scroll-behavior: smooth;
+      scroll-behavior: smooth;
 }
 
 body {
-      font-family:'Franklin Gothic Medium';
+      font-family: 'Franklin Gothic Medium';
       line-height: 1.6;
       background-color: #154D71;
       color: #FFF9AF;
@@ -27,16 +27,16 @@ header {
 }
 
 header>ul {
-      list-style-type:none;
+      list-style-type: none;
       display: flex;
       justify-content: center;
       gap: 25px;
 }
 
-header>ul>li>a{
-  color: #FFF9AF;
-  text-align: center;
-  text-decoration: none;
+header>ul>li>a {
+      color: #FFF9AF;
+      text-align: center;
+      text-decoration: none;
 }
 
 section {
@@ -56,7 +56,7 @@ section {
       /* height:80%;
       width: 100%; */
       padding-top: 100px;
-      display:flex;
+      display: flex;
       flex-direction: row;
       justify-content: space-evenly;
 }
@@ -72,7 +72,7 @@ section h2 {
       width: 15rem;
       border: 1px solid #FFF9AF;
       border-radius: 20%;
-      object-fit:cover;
+      object-fit: cover;
       float: left;
       margin: 0 50px;
 }
@@ -96,7 +96,7 @@ section h2 {
       display: flex;
       justify-content: center;
       gap: 50px;
-      font-size:larger;
+      font-size: larger;
 }
 
 #projects {
@@ -123,8 +123,22 @@ section h2 {
       overflow: hidden;
 }
 
-#resume{
-      padding-top:410px;
+.arrange button {
+      height:30px;
+      width: 70px;
+      background: #FFF9AF;
+      border: none;
+      margin-top:25px;
+      border-radius: 10px;
+}
+
+.arrange button a {
+      text-decoration: none;
+      color:#154D71
+}
+
+#resume {
+      padding-top: 410px;
       height: 450px;
       text-align: center;
 }
@@ -132,7 +146,7 @@ section h2 {
 #resume p {
       font-size: xx-large;
       font-weight: 200;
-      color:bisque;
+      color: bisque;
       font-style: oblique;
 }
 
@@ -144,7 +158,7 @@ section h2 {
       border-radius: 10px;
 }
 
-#resume > button > a {
+#resume>button>a {
       text-decoration: none;
 }
 
