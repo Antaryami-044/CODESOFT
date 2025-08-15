@@ -1,0 +1,166 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: boreder-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+      font-family:'Franklin Gothic Medium';
+      line-height: 1.6;
+      background-color: #154D71;
+      color: #FFF9AF;
+}
+
+header {
+      background-color: #154D71;
+      padding: 20px 20px;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+}
+
+header>ul {
+      list-style-type:none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+}
+
+header>ul>li>a{
+  color: #FFF9AF;
+  text-align: center;
+  text-decoration: none;
+}
+
+section {
+      padding: 20px 20px;
+      font-size: 1rem;
+      background-color: #33A1E0;
+      max-width: 100%;
+      margin: auto;
+      height: 800px;
+}
+
+#about {
+      text-align: center;
+}
+
+.design {
+      /* height:80%;
+      width: 100%; */
+      padding-top: 100px;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+
+section h2 {
+      margin-top: 50px;
+      padding-bottom: 60px;
+      color: black;
+}
+
+#about img {
+      height: 20rem;
+      width: 15rem;
+      border: 1px solid #FFF9AF;
+      border-radius: 20%;
+      object-fit:cover;
+      float: left;
+      margin: 0 50px;
+}
+
+#about p {
+      font-size: 2.5rem;
+      padding-top: 7.5rem;
+}
+
+#skills {
+      padding-top: 50px;
+      text-align: center;
+      height: 800px;
+}
+
+/* #skills h2 {
+      /* color: #F9CB99;
+} */
+
+.lists {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      font-size:larger;
+}
+
+#projects {
+      padding-top: 50px;
+      height: 800px;
+      text-align: center;
+}
+
+#projects h2 {
+      padding-bottom: 90px;
+}
+
+#projects>.arrange {
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+}
+
+#projects>.arrange>.project>img {
+      height: 200px;
+      width: 200px;
+      border-radius: 30%;
+      border: 5px solid goldenrod;
+      overflow: hidden;
+}
+
+#resume{
+      padding-top:410px;
+      height: 450px;
+      text-align: center;
+}
+
+#resume p {
+      font-size: xx-large;
+      font-weight: 200;
+      color:bisque;
+      font-style: oblique;
+}
+
+#resume button {
+      width: 100px;
+      height: 40px;
+      margin: 20px;
+      background-color: #FFF9AF;
+      border-radius: 10px;
+}
+
+#resume > button > a {
+      text-decoration: none;
+}
+
+#contact {
+      height: 680px;
+      background-color: #154D71;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+}
+
+#contact p {
+      margin: 10px;
+}
+
+footer {
+      text-align: center;
+      padding-bottom: 50px;
+}

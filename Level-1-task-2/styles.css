@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #ac1616;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0419f6b1;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #20a99b;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+#about {
+    background: linear-gradient(135deg, #ff6600, #ff9900);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+#about h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+#about button a {
+    text-decoration: none;
+    color: #20a99b;
+}
+
+button {
+    background: white;
+    color: #ff6600;
+    padding: 10px 20px;
+    border: 3px solid purple;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #e8e5e5;
+}
+
+#features {
+    height: 550px;
+    padding: 50px 10%;
+    background: #e1d5d5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#features h2 {
+    font-size: xx-large;
+}
+.f {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.f-1 {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.f-1:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 2px 8px rgba(38, 19, 19, 0.6);
+}
+
+#company {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 10%;
+    gap: 30px;
+    align-items: center;
+}
+
+#company img {
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 14px;
+}
+
+.details {
+    flex: 1;
+    text-align: left;
+}
+.details h2 {
+    margin-bottom: 20px;
+}
+
+#contact {
+    height: 400px;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+    font-size: 100px;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.media a {
+    color: rgb(147, 147, 240);
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
