@@ -8,24 +8,6 @@ buttons.forEach(button => {
     });
 });
 
-// document.addEventListener("keydown", function(event) {
-//     let key = event.key;
-
-//     if (!isNaN(key) || ["+", "-", "*", "/", "."].includes(key)) {
-//         handleInput(key);
-//     }
-//     else if (key === "Enter") {
-//         handleInput("=");
-//     }
-//     else if (key === "Backspace") {
-//         displayValue = displayValue.slice(0, -1);
-//         display.value = displayValue;
-//     }
-//     else if (key === "Escape") {
-//         handleInput("c");
-//     }
-// });
-
 function handleInput(value) {
     if (value === 'c') {
         displayValue = "";
@@ -45,3 +27,23 @@ function handleInput(value) {
         display.value = displayValue;
     }
 }
+
+//below one use for handleing user input by keyboard.....
+
+// document.addEventListener("keydown", function(event) {
+//     let key = event.key;
+
+//     if (!isNaN(key) || ["+", "-", "*", "/", "."].includes(key)) {
+//         handleInput(key);
+//     }
+//     else if (key === "Enter") {
+//         handleInput("=");
+//     }
+//     else if (key === "Backspace") {
+//         displayValue = displayValue.slice(0, -1);
+//         display.value = displayValue;
+//     }
+//     else if (key === "Escape") {
+//         handleInput("c");
+//     }
+// });
